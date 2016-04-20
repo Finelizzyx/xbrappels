@@ -1,0 +1,179 @@
+# depslib dependency file v1.0
+1456689004 source:c:\users\pc-portable\documents\github\xbrappels\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1456689004 c:\users\pc-portable\documents\github\xbrappels\resource.h
+
+1456517236 source:i:\dev\git\xbrappels\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1456517236 i:\dev\git\xbrappels\resource.h
+
+1456517236 source:i:\dev\git\xbrappels\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"resource.h"
+	"Rappel.h"
+	"xbrappels.h"
+
+1456523220 i:\dev\git\xbrappels\xbrappels.h
+	<vector>
+	"Rappel.h"
+
+1456170979 source:d:\git\xbrappels\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	"resource.h"
+	"xbrappels.h"
+	"Rappel.h"
+
+1456170979 d:\git\xbrappels\resource.h
+
+1456170979 d:\git\xbrappels\xbrappels.h
+
+1456170979 source:d:\git\xbrappels\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1455359824 source:d:\git\xbrappels\aproposde.cpp
+	<windows.h>
+	"resource.h"
+
+1456170978 d:\git\xbrappels\rappel.h
+	<windows.h>
+	<string>
+
+1456182525 source:d:\git\xbrappels\rappel.cpp
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<iomanip>
+	"Rappel.h"
+
+1455359229 source:i:\dev\git\xbrappels\aproposde.cpp
+	<windows.h>
+	"resource.h"
+
+1456517236 i:\dev\git\xbrappels\rappel.h
+	<windows.h>
+	<string>
+
+1456524068 source:i:\dev\git\xbrappels\rappel.cpp
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<iomanip>
+	"Rappel.h"
+
+1455455078 source:c:\users\pc-portable\documents\github\xbrappels\aproposde.cpp
+	<windows.h>
+	"resource.h"
+
+1456610049 source:c:\users\pc-portable\documents\github\xbrappels\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"resource.h"
+	"Rappel.h"
+	"xbrappels.h"
+
+1456686863 c:\users\pc-portable\documents\github\xbrappels\xbrappels.h
+	<vector>
+	"Rappel.h"
+
+1456605982 c:\users\pc-portable\documents\github\xbrappels\rappel.h
+	<windows.h>
+	<string>
+
+1456602017 source:c:\users\pc-portable\documents\github\xbrappels\rappel.cpp
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<iomanip>
+	"Rappel.h"
+	"xbrappels.h"
+
+1456689473 source:c:\users\pc-portable\documents\github\xbrappels\fonctions.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<ostream>
+	"resource.h"
+	"xbrappels.h"
+	"Rappel.h"
+
+1456170979 source:d:\git\xbrappels\fonctions.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	"resource.h"
+	"xbrappels.h"
+	"Rappel.h"
+
+1456689135 source:c:\users\pc-portable\documents\github\xbrappels\dingding.cpp
+	<windows.h>
+	<string>
+	<sstream>
+	<iomanip>
+	<stdio.h>
+	"resource.h"
+	"xbrappels.h"
+
+1456517236 source:i:\dev\git\xbrappels\dingding.cpp
+	<windows.h>
+	<string>
+	<sstream>
+	<iomanip>
+	<stdio.h>
+	"resource.h"
+	"xbrappels.h"
+
+1456524614 source:i:\dev\git\xbrappels\fonctions.cpp
+	<windows.h>
+	<commctrl.h>
+	<shellapi.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<ostream>
+	"resource.h"
+	"xbrappels.h"
+	"Rappel.h"
+
