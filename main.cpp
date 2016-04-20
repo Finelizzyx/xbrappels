@@ -29,6 +29,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
     char rText[128];
     string sText;
     SYSTEMTIME stList;
+    FichierRappel *fr;
 
     switch(uMsg)
     {
@@ -100,8 +101,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     m = (char*)calloc(128, 1);
                     d = (char*)calloc(1024,1);
                     GetDlgItemText(hwndDlg, IDE_DATE, dateHeure, 11);
-                    dateHeure[10] = 32; // Espace entre date et heure
-                    GetDlgItemText(hwndDlg, IDE_HEURE, dateHeure+11, 10);
+                    GetDlgItemText(hwndDlg, IDE_HEURE, dateHeure+10, 10);
                     if(SendDlgItemMessage(hwndDlg, IDE_MESSAGE, EM_LINELENGTH, (WPARAM) 0, (LPARAM) 0) == 0) // Taille de ce qui a été saisi dans la zone libellé
                     {
                         // TODO : Faire clignoter la zone de saisie "message" pour montrer qu'elle est vide
@@ -110,10 +110,8 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     {
                         GetDlgItemText(hwndDlg, IDE_MESSAGE, m, 128);
                         GetDlgItemText(hwndDlg, IDE_DETAIL, d, 1024);
-                        sscanf(dateHeure, "%02hu/%02hu/%04hu %02hu:%02hu:%02hu", &st.wDay, &st.wMonth, &st.wYear, &st.wHour, &st.wMinute, &st.wSecond);
-                        message=m;
-                        detail=d;
-                        r = new Rappel(st, message, detail);
+                        fr = new FichierRappel(dateHeure, m, d);
+                        fr->ecrire();
                         // On ajoute un élément dans la liste
                         hList = (HWND)GetDlgItem(hwndDlg, IDL_RAPPELS);
                         nbitems = ListView_GetItemCount(hList) + 1;

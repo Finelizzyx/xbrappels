@@ -3,18 +3,9 @@
 
 #include <windows.h>
 #include <string>
+#include "FichierRappel.h"
 
-typedef struct tRappels {
-    UINT m_id;
-    SYSTEMTIME m_date;
-    SYSTEMTIME m_rdate;
-    std::string m_message;
-    UINT m_status;
-    std::string m_detail;
-    UINT m_encours;
-} tRappel;
-
-class Rappel
+class Rappel : public FichierRappel
 {
     public:
         Rappel(SYSTEMTIME pdate, std::string message, std::string detail);
@@ -33,12 +24,16 @@ class Rappel
         UINT getEncours();
         void setEncours(UINT encours);
 
-        void ajouter();
-        void miseAJour();
 
     protected:
     private:
-        tRappel trappel;
+        UINT m_id;
+        SYSTEMTIME m_idate;
+        SYSTEMTIME m_rdate;
+        UINT m_status;
+        std::string m_message;
+        std::string m_detail;
+        UINT m_encours;
 };
 
 #endif // RAPPEL_H

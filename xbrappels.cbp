@@ -40,6 +40,8 @@
 			<Add library="kernel32" />
 			<Add library="comctl32" />
 		</Linker>
+		<Unit filename="FichierRappel.cpp" />
+		<Unit filename="FichierRappel.h" />
 		<Unit filename="Rappel.cpp" />
 		<Unit filename="Rappel.h" />
 		<Unit filename="aproposde.cpp" />

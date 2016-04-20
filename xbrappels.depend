@@ -7,15 +7,15 @@
 
 1456689004 c:\users\pc-portable\documents\github\xbrappels\resource.h
 
-1456517236 source:i:\dev\git\xbrappels\resource.rc
+1458377010 source:i:\dev\git\xbrappels\resource.rc
 	<windows.h>
 	<commctrl.h>
 	<richedit.h>
 	"resource.h"
 
-1456517236 i:\dev\git\xbrappels\resource.h
+1458377010 i:\dev\git\xbrappels\resource.h
 
-1456517236 source:i:\dev\git\xbrappels\main.cpp
+1461151932 source:i:\dev\git\xbrappels\main.cpp
 	<windows.h>
 	<commctrl.h>
 	<shellapi.h>
@@ -28,7 +28,7 @@
 	"Rappel.h"
 	"xbrappels.h"
 
-1456523220 i:\dev\git\xbrappels\xbrappels.h
+1458377010 i:\dev\git\xbrappels\xbrappels.h
 	<vector>
 	"Rappel.h"
 
@@ -69,15 +69,16 @@
 	<iomanip>
 	"Rappel.h"
 
-1455359229 source:i:\dev\git\xbrappels\aproposde.cpp
+1455362829 source:i:\dev\git\xbrappels\aproposde.cpp
 	<windows.h>
 	"resource.h"
 
-1456517236 i:\dev\git\xbrappels\rappel.h
+1461151632 i:\dev\git\xbrappels\rappel.h
 	<windows.h>
 	<string>
+	"FichierRappel.h"
 
-1456524068 source:i:\dev\git\xbrappels\rappel.cpp
+1461152117 source:i:\dev\git\xbrappels\rappel.cpp
 	<stdio.h>
 	<iostream>
 	<fstream>
@@ -85,6 +86,7 @@
 	<vector>
 	<iomanip>
 	"Rappel.h"
+	"xbrappels.h"
 
 1455455078 source:c:\users\pc-portable\documents\github\xbrappels\aproposde.cpp
 	<windows.h>
@@ -155,7 +157,7 @@
 	"resource.h"
 	"xbrappels.h"
 
-1456517236 source:i:\dev\git\xbrappels\dingding.cpp
+1461147782 source:i:\dev\git\xbrappels\dingding.cpp
 	<windows.h>
 	<string>
 	<sstream>
@@ -164,7 +166,7 @@
 	"resource.h"
 	"xbrappels.h"
 
-1456524614 source:i:\dev\git\xbrappels\fonctions.cpp
+1461151886 source:i:\dev\git\xbrappels\fonctions.cpp
 	<windows.h>
 	<commctrl.h>
 	<shellapi.h>
@@ -176,4 +178,7 @@
 	"resource.h"
 	"xbrappels.h"
 	"Rappel.h"
+
+1461152633 i:\dev\git\xbrappels\fichierrappel.h
+	<string>
 
