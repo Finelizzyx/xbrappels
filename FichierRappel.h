@@ -8,16 +8,16 @@ typedef struct _frappel {
         char fixe[10];
         char id[6];
     } sentete;
-    char initdate[30];
-    char rapdate[30];
+    char initdate[13];
+    char rapdate[13];
     struct _sobjet {
         char dobjet[7];
-        std::string objet;
+        char *objet;
         char fobjet[5];
     } sobjet;
     struct _sdetail {
         char ddetail[7];
-        std::string detail;
+        char *detail;
         char fdetail[5];
     } sdetail;
     char statut;
@@ -36,6 +36,8 @@ class FichierRappel
     private:
         frappel m_frappel;
         unsigned int m_idmax;
+
+        char *strsub(const char* chaine, int d, int n);
 };
 
 #endif // FICHIERRAPPEL_H

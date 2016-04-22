@@ -166,7 +166,7 @@
 	"resource.h"
 	"xbrappels.h"
 
-1461151886 source:i:\dev\git\xbrappels\fonctions.cpp
+1461313427 source:i:\dev\git\xbrappels\fonctions.cpp
 	<windows.h>
 	<commctrl.h>
 	<shellapi.h>
@@ -179,6 +179,12 @@
 	"xbrappels.h"
 	"Rappel.h"
 
-1461152633 i:\dev\git\xbrappels\fichierrappel.h
+1461313486 i:\dev\git\xbrappels\fichierrappel.h
 	<string>
+
+1461313824 source:i:\dev\git\xbrappels\fichierrappel.cpp
+	<string.h>
+	<stdio.h>
+	<windows.h>
+	"FichierRappel.h"
 
